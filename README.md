@@ -20,7 +20,7 @@ Atenciosamente,
 Gabriel Luna.
 
 <div align="center">
-  img src="![APPLAB](https://github.com/GabrielLuna1/Landing-Page-Bootstrap/assets/102186692/2523c7ca-6b56-46e2-afe8-07cb4bdfd95e)" width="0px" /
+  <img src="[APPLAB](https://github.com/GabrielLuna1/Landing-Page-Bootstrap/assets/102186692/2523c7ca-6b56-46e2-afe8-07cb4bdfd95e)" width="0px" />
 </div> 
 
 
