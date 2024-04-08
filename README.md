@@ -1,7 +1,5 @@
 Projeto de Landing Page: Experiência de Aprendizado
 
-Projeto de Landing Page: Experiência de Aprendizado
-
 Olá pessoal,
 
 Gostaria de compartilhar com vocês o projeto de Landing Page que desenvolvi recentemente como parte do meu processo de aprendizado em desenvolvimento web. Utilizei HTML, CSS, JavaScript e Bootstrap para criar esta página, que teve como base um design pré-existente baixado da web (link: [design pré-existente baixado da web](https://www.uistore.design/items/applab-landing-page-for-photoshop/)).
