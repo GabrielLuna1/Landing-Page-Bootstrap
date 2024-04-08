@@ -1,0 +1,669 @@
+
+/*Incio do codigo, seção NAV MENU*/
+
+/* Estilos para o logotipo */
+.navbar-brand {
+    margin-right: auto; /* Mover o logotipo para o lado esquerdo */
+  }
+  /* Estilos para o menu */
+  .navbar-nav {
+    margin-left: auto; /* Mover o menu para o lado direito */
+  }
+
+.navbar {
+--bs-navbar-padding-y: 1.2rem;
+}
+
+/*fim seção NAV MENU*/
+
+
+/* Definição de variáveis CSS /PALETA DE CORES/IMG*/
+:root {
+  --color-main: #242f51; /* Cor principal */
+  --color-gray: #616368; /* Cor cinza */
+  --color-orange: #feaa25; /*Cor laranja*/
+  --color-white: #fff; /* Cor branca */
+  --color-red: #f55767;/*Cor vermelha*/
+  --color-green: #40975f; /*Cor verde*/
+  --color-blue: #4076ff; /*cor azul*/
+  --color-footer:#09142e;/*Cor do rodapé*/
+  --color-background: #e2eaed; /* Cor de fundo */
+  --sub-section-bkc: #fdfefe; /*SUB SECTION BACKGROUD COLOR*/
+  --border-radius: 37px; /* Raio da borda */
+  --border-sub-section: solid 1px #f2f3f3;
+  --border-slider: solid 1px #ebebeb;
+  --input-slider: #ebebeb;
+  --color-i: #616368; /*cor dos icones*/
+  --bk-color-dropdown: #f5f7fa;
+  /*BACKGROUNDS-IMG*/
+  --bg-image-url: url('img/backgroundmain.png');
+  --btn-app-story: url("img/app-store.png");
+  --btn-gplay:url("img/gplay.png");
+
+}
+
+/*CRIAÇÃO DE CLASSE REUTILIZAVEIS - Paleta de cores.*/
+.color-white{
+  color: var(--color-white); /* cor branca */
+}
+
+.color-main{
+    color: var(--color-main); /* Utilizando a variável para a cor principal */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.color-cinza{
+    color: var(--color-gray); /* Utilizando a variável para a cor cinza */
+    font-weight: 500;
+}
+
+.font-big{
+  font-size: 1.3em;
+}
+
+.bkcolor{
+    background-color: var(--color-background); /* Utilizando a Cor de fundo */
+    border-radius: 37px;
+    -moz-border-radius: 37px;
+    -webkit-border-radius: 37px;
+    width: 285px;
+    font-weight: 500;
+}
+
+/*CLASSE UTILIZADA PARA STYLIZAR O BOTÃO*/
+.btn{
+background-color:var(--color-main); /* Utilizando a variável para a cor principal */
+color: var(--color-white); /* Utilizando a variável para a cor BRANCA */
+border-radius: var(--border-radius); /* Utilizando a variável para o raio da borda */
+border: none;
+padding: 1em;
+width: 10rem;
+-webkit-transition: all 200ms ease-in;
+-ms-transition: all 200ms ease-in;
+-moz-transition: all 200ms ease-in;
+transition: all 200ms ease-in;
+font-weight: 500;
+}
+/*CLASSE UTILIZADA PARA STYLIZAR O BOTÃO QUANDO CURSOR ESTÁ POSICIONADO EM CIMA DELE*/
+.btn:hover{
+    background-color: var(--color-orange); /* Utilizando a variável para a cor laranja */
+    transform: scale(1.1);  
+}
+
+/*classe que altera a cor do menu*/
+  a.nav-link{
+    color: var(--color-main); /*cor principal*/
+    font-weight: 500;
+    margin: auto 10px
+  }
+
+/*classe utilizada para gerar o backgroud do topo da pagina*/
+.background{
+    background-image: var(--bg-image-url); /* Utilizando a variável para o background */;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2em;
+    min-height: 1000px;
+}
+
+/*3 classes utilzadas para dar espaçamento em alguns pontos expecificos do codigo*/
+.gl-esp{
+    margin: 0,9em auto;
+}
+.gl-esp1{
+    margin:1em auto;
+    padding: 1em;
+}
+
+.gl-esp2{
+  margin-top: 2em;
+}
+
+.gl-esp3{
+ margin: 8em auto;
+}
+
+
+/*Custom section classe criada para comportar 3 seções a primeira contendo 5 imagens abaixo seções right e left*/
+.custom-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .custom-section h3 {
+    margin-bottom: 30px;
+  }
+
+  /*Classe responsavel pelo alinhamento das 5 imagens*/
+  .custom-section .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 5em;
+  }
+  .custom-section .image-grid img {
+    width: 100%; /* Tornar as imagens ocupando 100% da largura do contêiner flexível */
+    max-width: 150px; /* Limitar a largura máxima das imagens */
+    margin: 0 10px;
+  }
+ 
+/*Criação da slipt section, responsavel por comportar e dividir a seções left e right*/
+  .custom-section .split-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*Customização da seções left e right*/
+  .custom-section .split-section .left {
+    flex: 1;
+    text-align: center;
+  }
+  .custom-section .split-section .right {
+    flex: 1;
+    text-align: left;
+  }
+
+  /*Definições da imagem na seção left*/
+.left img{
+  max-width: 100%;
+  height: auto;
+ 
+}
+
+/*Fim da Custom section*/
+
+/*Incio da Secção section*/
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .section img {
+    max-width: 100%;
+    margin-right: 20px;
+  }
+
+  .section3 img {
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+  .section-content {
+    flex: 1;
+  }
+
+.color-red{
+    color: var(--color-red); /* cor red */;
+}
+
+.color-green{
+    color: var(--color-green); /* cor verde */
+}
+
+.color-blue{
+     color: var(--color-blue); /* cor azul */
+}
+
+/*Fim da section*/
+
+
+/*Inicio da section1*/
+.section1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.section1 h2 {
+  margin-right: 20px;
+  color: var(--color-main); /* Utilizando a variável para a cor principal */
+
+  
+}
+.section1 p{
+  margin-right: 20px;
+  
+}
+/*Fim da section1*/
+
+
+/*Inicio da Center Section*/
+.center-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.center-section h2 {
+  margin-bottom: 20px;
+}
+.center-section p {
+  margin-bottom: 40px;
+}
+.center-section img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.center-section h4 {
+  margin-bottom: 10px;
+}
+
+.left-section {
+  text-align: left;
+}
+.left-section h2 {
+  margin-bottom: 10px;
+}
+.left-section p {
+  margin-bottom: 20px;
+}
+.left-section img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.left-section h4 {
+  margin-bottom: 10px;
+}
+
+/*Fim da Center Section*/
+
+/*Inicio da Sub Section*/
+.sub-section {
+  background-color: var(--sub-section-bkc); /* Background color sub section */
+  padding: 20px;
+  border: var(--border-sub-section); /* cor borda sub-section */
+  text-align: center;
+  border-radius: 2%;
+  margin: 30px auto;
+}
+.sub-section.white {
+  background-color: var(--color-white); /* Utilizando a variável para a cor BRANCA */
+}
+.sub-section h3 {
+  margin-bottom: 10px;
+}
+.sub-section h4, .sub-section p {
+  margin-bottom: 15px;
+}
+.sub-section:last-child {
+  margin-bottom: 0;
+}
+
+/*Fim da Sub Section*/
+
+
+/*Inicio da criação do botão ligado e desligado*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 120px; /* Ajustando a largura do botão */
+  height: 60px; /* Ajustando a altura do botão */
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-white); /* Utilizando a variável para a cor BRANCA */
+  border-radius: 30px; /* Ajustando o raio da borda para acompanhar o tamanho do botão */
+  transition: .4s;
+  border: var(--border-slider);
+  
+ 
+}
+
+.slider::before {
+  position: absolute;
+  content: attr(data-content);
+  height: calc(100% - 13px); /* Altura da bolinha relativa à altura do botão */
+  width: calc(50% - 13px); /* Largura da bolinha relativa à largura do botão */
+  line-height: calc(100% - 6px); /* Centralizando o texto verticalmente */
+  text-align: center; /* Centralizando o texto horizontalmente */
+  background-color: var(--color-main); /* Utilizando a variável para a cor principal */
+  border-radius: 50%;
+  transition: .4s;
+  transform: translateX(-100%);
+
+}
+
+input:checked + .slider::before {
+  transform: translateX(8%); /* Deslocamento proporcional ao tamanho do botão */
+}
+
+/* Estilização do texto dentro da bolinha */
+input:checked + .slider::before {
+  content: "Annually";
+  color: var(--input-slider);
+  text-align: center;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.slider::before {
+  text-align: center;
+  content: "Monthly";
+  color: var(--input-slider);
+  margin-top: 5px;
+  font-weight: 500;
+  padding: 15px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.color-slider{
+  color: #999ca5;
+  font-weight: 500;
+}
+
+.color-slider1{
+  color: #a0a3ab;
+  font-weight: 500;
+}
+/*Fim da criação do botão ligado e desligado*/
+
+
+/*Inicio da Section2*/
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.left-section1 {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right-section1 {
+  flex: 1;
+  padding-left: 20px;
+}
+
+/*Fim da criação da Section2*/
+
+/*Inicio da criação do SLICK SLIDER*/
+.slick-slide img {
+  display: block;
+  margin: 0 auto;
+  
+}
+
+/*Criação dos botões (arrows) de navegção do slider*/
+.control-prev,
+.control-next {
+  font-size: 20px;
+  color: var(--color-white); /* cor branca */
+  background-color: transparent;
+  border: none;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+.control-prev {
+  left: 20px;
+}
+.control-next {
+  right: 20px;
+}
+
+i{
+  color: var(--color-i);/*cor dos icones*/
+  
+}
+
+i:hover{
+color: var(--color-main); /* Utilizando a variável para a cor principal */
+}
+
+/*classe criada apenas para alinha texto ao centro*/
+.centro{
+  text-align: center;
+}
+
+/*Fim da criação do SLICK SLIDER*/
+
+
+/*Incio da criação do dropdown*/
+.dropdown {
+  margin-bottom: 20px;
+  padding: 30px;
+  background-color: var(--bk-color-dropdown);;
+}
+.dropdown h3 {
+  margin-top: 0;
+}
+.dropdown-toggle {
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+}
+.dropdown-open .dropdown-content {
+  display: block;
+}
+.dropdown-toggle::after { /*Classe criada para exibir simbolo de + quando dropdown estiver fechado*/
+  content: "+";
+  float: right;
+}
+.dropdown-open .dropdown-toggle::after { /*Classe criada para exibir simbolo de - quando dropdown estiver aberto*/
+  content: "-";
+}
+
+/*fim dropdown*/
+
+.text {
+  margin-bottom: 20px;
+}
+
+/*Seção container-end*/
+.container-end {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.left-section-end,
+.right-section-end {
+  flex-basis: 45%;
+}
+.left-section-end img,
+.right-section-end img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.left-section-end button{
+  margin: 20px;
+}
+
+
+.btn-app-story{
+  background-image: var(--btn-app-story);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: none;
+  background-size: cover;
+  min-height: auto;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+
+.btn-gplay{
+  background-image: var(--btn-gplay);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: none;
+  background-size: cover;
+  min-height: auto;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+/*fim da seção container-end*/
+
+
+/*Inicio da seção Footer*/
+
+footer {
+  background-color: var(--color-footer); /* Utilizando a variável para a cor principal */
+  color: var(--color-white); /* cor branca */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: block;
+}
+
+.logo img {
+  display: block;
+  margin: 90px auto 30px auto /* Centraliza a imagem horizontalmente */
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu li a {
+  color:var(--color-white); /* cor branca */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.menu li a:hover{
+  color: var(--color-orange);
+  border-bottom: 2px solid var(--color-orange);
+}
+
+.icons i{
+  color:var(--color-white); /* cor branca */
+  width: 50px; /* Ajuste o tamanho máximo conforme necessário */
+  margin: 10px 5px;
+  cursor: pointer;
+}
+
+.icons i:hover{
+  color: var(--color-orange);
+}
+
+
+
+
+/* Estilização do texto de rodapé */
+footer p {
+  color:var(--color-white); /* cor branca */
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Estilização para centralizar a imagem */
+.center {
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+/*Inicio dos Medias query ligado a responsividade do codigo.*/
+@media (min-width: 1200px){
+  .h1, h1 {
+    font-size: 3.5rem;
+}
+}
+
+
+@media (max-width: 768px) { 
+  .custom-section .split-section{
+    display: block;
+    margin: 0 auto;
+  } 
+
+  .font-big{
+    font-size: 1em;
+  }
+  
+
+  .section1{
+    display: block;
+  }
+
+  .gl-centro{
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .section img{
+    display: block;
+    margin: 10px auto;
+  }
+
+  .section2{
+    display: block;
+  }
+
+  .container-end{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  .section2 img{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .left-section img {
+    display: block;
+    margin: 0 auto;
+}
+
+.left-section1 img {
+  display: block;
+  margin: 55px auto;
+}
+
+.slide-min{
+ display: block;
+ margin: 0 auto;
+}
+
+}
+
+@media (max-width: 576px) { 
+  .font-big{
+    font-size: 0.9em;
+    font-weight: 700;
+  }
+
+}
+
+/*Fim dos Medias query e do codigo*/
+ 
+
+
+
