@@ -19,8 +19,7 @@ Obrigado pela atenção e apoio!
 Atenciosamente,
 Gabriel Luna.
 
-<div align="center">
-  <img src="[APPLAB](https://github.com/GabrielLuna1/Landing-Page-Bootstrap/assets/102186692/2523c7ca-6b56-46e2-afe8-07cb4bdfd95e)" width="0px" />
-</div> 
+![APPLAB](https://github.com/GabrielLuna1/Landing-Page-Bootstrap/assets/102186692/a881095f-89d4-4d5f-82f6-fd882b2c970a)
+
 
 
