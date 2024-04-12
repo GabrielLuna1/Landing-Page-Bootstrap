@@ -1,6 +1,6 @@
-<div style="border: 2px solid #fff; padding: 10px;">
-    <h1 style="text-align: center;">Projeto de Landing Page: Experiência de Aprendizado ✨</h1>
-</div>
+
+<h1 style="text-align: center;">Projeto de Landing Page: Experiência de Aprendizado ✨</h1>
+
 Olá pessoal! 👋
 
 Gostaria muito de compartilhar com vocês o projeto de Landing Page que desenvolvi recentemente como parte do meu processo de aprendizado em desenvolvimento web.
