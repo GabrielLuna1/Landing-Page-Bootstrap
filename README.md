@@ -16,7 +16,7 @@ Gostaria muito de compartilhar com vocês o projeto de Landing Page que desenvol
 
 Utilizei as seguintes tecnologias e frameworks:
 
-- HTML <i class="fab fa-html5"></i>
+- HTML &#x1F4D1;
 - CSS <i class="fab fa-css3-alt"></i>
 - JavaScript <i class="fab fa-js"></i>
 - Bootstrap <i class="fab fa-bootstrap"></i>
