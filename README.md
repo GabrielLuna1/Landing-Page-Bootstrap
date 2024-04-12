@@ -4,7 +4,7 @@ Olá pessoal! 👋
 Gostaria muito de compartilhar com vocês o projeto de Landing Page que desenvolvi recentemente como parte do meu processo de aprendizado em desenvolvimento web.
 
 
-Utilizei HTML, CSS, JavaScript e Bootstrap para criar esta página, baseando-me em um design pré-existente baixado da web (Link para o design pré-existente).
+Utilizei HTML, CSS, JavaScript e Bootstrap para criar esta página, baseando-me em um design pré-existente baixado da web (Link para o design pré-existente https://www.uistore.design/items/applab-landing-page-for-photoshop/).
 
 A criação desta Landing Page foi uma oportunidade incrível para aplicar os conceitos e técnicas que venho aprendendo, desde a estruturação básica do HTML até a estilização avançada com CSS. Além disso, explorei as funcionalidades interativas do JavaScript para tornar a experiência do usuário mais dinâmica e envolvente.
 
