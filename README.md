@@ -1,12 +1,23 @@
 
-<h1 style="text-align: center;">Projeto de Landing Page: Experiência de Aprendizado ✨</h1>
+<div style="border: 2px solid #000000; padding: 10px;">
+    <h1 style="text-align: center;">Projeto de Landing Page: Experiência de Aprendizado ✨</h1>
+</div>
+
+---
 
 Olá pessoal! 👋
 
 Gostaria muito de compartilhar com vocês o projeto de Landing Page que desenvolvi recentemente como parte do meu processo de aprendizado em desenvolvimento web.
 
+![Landing Page Preview](link_para_imagem.png)
 
-Utilizei HTML, CSS, JavaScript e Bootstrap para criar esta página, baseando-me em um design pré-existente baixado da web (Link para o design pré-existente https://www.uistore.design/items/applab-landing-page-for-photoshop/).
+Utilizei as seguintes tecnologias e frameworks:
+
+- HTML <i class="fab fa-html5"></i>
+- CSS <i class="fab fa-css3-alt"></i>
+- JavaScript <i class="fab fa-js"></i>
+- Bootstrap <i class="fab fa-bootstrap"></i>
+ baseando-me em um design pré-existente baixado da web ![Landing Page Preview]([link_para_design](https://www.uistore.design/items/applab-landing-page-for-photoshop/))
 
 A criação desta Landing Page foi uma oportunidade incrível para aplicar os conceitos e técnicas que venho aprendendo, desde a estruturação básica do HTML até a estilização avançada com CSS. Além disso, explorei as funcionalidades interativas do JavaScript para tornar a experiência do usuário mais dinâmica e envolvente.
 
