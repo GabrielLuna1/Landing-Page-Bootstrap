@@ -1,3 +1,8 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+
 
 <div style="border: 2px solid #000000; padding: 10px;">
     <h1 style="text-align: center;">Projeto de Landing Page: Experiência de Aprendizado ✨</h1>
