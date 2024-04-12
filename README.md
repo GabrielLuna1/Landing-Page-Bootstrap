@@ -1,4 +1,4 @@
-<div style="border: 2px solid #000000; padding: 10px;">
+<div style="border: 2px solid #fff; padding: 10px;">
     <h1 style="text-align: center;">Projeto de Landing Page: Experiência de Aprendizado ✨</h1>
 </div>
 Olá pessoal! 👋
