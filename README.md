@@ -14,6 +14,7 @@ Utilizei as seguintes tecnologias e frameworks: HTML, CSS, JAVASCRIPT E BOOTSTRA
   <img align="center" alt="Bootstrap" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg">
 </div>
 
+
 Baseando-me em um design pré-existente baixado da web ([!Link_para_design](https://www.uistore.design/items/applab-landing-page-for-photoshop/))
 
 A criação desta Landing Page foi uma oportunidade incrível para aplicar os conceitos e técnicas que venho aprendendo, desde a estruturação básica do HTML até a estilização avançada com CSS. Além disso, explorei as funcionalidades interativas do JavaScript para tornar a experiência do usuário mais dinâmica e envolvente.
