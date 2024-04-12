@@ -4,9 +4,7 @@
 
 Olá pessoal! 👋
 
-Gostaria muito de compartilhar com vocês o projeto de Landing Page que desenvolvi recentemente como parte do meu processo de aprendizado em desenvolvimento web.
-
-Utilizei as seguintes tecnologias e frameworks: HTML, CSS, JAVASCRIPT E BOOTSTRAP.
+Gostaria muito de compartilhar com vocês o projeto de Landing Page que desenvolvi recentemente como parte do meu processo de aprendizado em desenvolvimento web. Utilizei as seguintes tecnologias e frameworks: HTML, CSS, JAVASCRIPT E BOOTSTRAP.
 <div style="display: inline_block">
   <img align="center" alt="GL-HTML" height="70" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="GL-CSS" height="70" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
