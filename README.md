@@ -1,29 +1,20 @@
-<head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-
-
-
-<div style="border: 2px solid #000000; padding: 10px;">
-    <h1 style="text-align: center;">Projeto de Landing Page: Experiência de Aprendizado ✨</h1>
-</div>
-
+<h1 style="text-align: center;">Projeto de Landing Page: Experiência de Aprendizado ✨</h1>
 ---
 
 Olá pessoal! 👋
 
 Gostaria muito de compartilhar com vocês o projeto de Landing Page que desenvolvi recentemente como parte do meu processo de aprendizado em desenvolvimento web.
 
-Utilizei as seguintes tecnologias e frameworks:
+Utilizei as seguintes tecnologias e frameworks: HTML, CSS, JAVASCRIPT E BOOTSTRAP.
 
 <div style="display: inline_block"><br>
   <img align="center" alt="GL-HTML" height="70" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="GL-CSS" height="70" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="GL-Js" height="70" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Bootstrap" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg">
 </div>
-- Bootstrap <i class="fab fa-bootstrap"></i>
 
- baseando-me em um design pré-existente baixado da web ([!Link_para_design](https://www.uistore.design/items/applab-landing-page-for-photoshop/))
+Baseando-me em um design pré-existente baixado da web ([!Link_para_design](https://www.uistore.design/items/applab-landing-page-for-photoshop/))
 
 A criação desta Landing Page foi uma oportunidade incrível para aplicar os conceitos e técnicas que venho aprendendo, desde a estruturação básica do HTML até a estilização avançada com CSS. Além disso, explorei as funcionalidades interativas do JavaScript para tornar a experiência do usuário mais dinâmica e envolvente.
 
