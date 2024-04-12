@@ -16,7 +16,7 @@ Gostaria muito de compartilhar com vocês o projeto de Landing Page que desenvol
 
 Utilizei as seguintes tecnologias e frameworks:
 
-- HTML <img align="center" alt="GL-HTML" height="70" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+- HTML <img  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 - CSS <img align="center" alt="GL-CSS" height="70" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 - JavaScript <img align="center" alt="GL-Js" height="70" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 - Bootstrap <i class="fab fa-bootstrap"></i>
