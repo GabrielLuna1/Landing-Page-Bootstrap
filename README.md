@@ -15,6 +15,7 @@ Utilizei as seguintes tecnologias e frameworks:
 - CSS <i class="fab fa-css3-alt"></i>
 - JavaScript <i class="fab fa-js"></i>
 - Bootstrap <i class="fab fa-bootstrap"></i>
+
  baseando-me em um design pré-existente baixado da web ([!Link_para_design](https://www.uistore.design/items/applab-landing-page-for-photoshop/))
 
 A criação desta Landing Page foi uma oportunidade incrível para aplicar os conceitos e técnicas que venho aprendendo, desde a estruturação básica do HTML até a estilização avançada com CSS. Além disso, explorei as funcionalidades interativas do JavaScript para tornar a experiência do usuário mais dinâmica e envolvente.
