@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Projeto de Landing Page: Experiência de Aprendizado ✨</h1>
+<h1 style="text-align: center;">Projeto de Landing Page Bootstrap: Experiência de Aprendizado ✨</h1>
 
 ---
 
